@@ -1,0 +1,5 @@
+docker run -d --name devpi \
+    --publish 3141:3141 \
+    --volume /home/nova/work/pypi-server-setup/volume-devpi:/data \
+    --env=DEVPI_PASSWORD=password \
+    muccg/devpi:latest
