@@ -166,3 +166,4 @@ cython_debug/
 
 /gen-config
 /volume-devpi
+supervisord.pid
